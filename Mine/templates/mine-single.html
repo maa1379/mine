@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+    <meta name="robots" content=""/>
+    <meta name="description" content=""/>
+    <meta property="og:title" content="Constructzilla - Construction Template"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+
+    <!-- PAGE TITLE HERE -->
+    <title>Koopdepot</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="css/templete.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style-rtl.css">
+    <link rel="stylesheet" type="text/css" href="plugins/fonts/dana.css">
+    <link rel="stylesheet" type="text/css" href="plugins/fonts/vazir.css">
+    <link rel="stylesheet" type="text/css" href="plugins/fonts/iransans.css">
+
+    <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+    <!-- REVOLUTION SLIDER CSS END -->
+
+</head>
+<body id="bg">
+<div id="loading-area"></div>
+<div class="page-wraper">
+    <!-- header -->
+    <header class="site-header header mo-left header-style-1">
+        <!-- top bar -->
+        <div class="top-bar no-skew bg-white">
+            <div class="container-fluid p-r60 p-l60">
+                <div class="row d-flex justify-content-between">
+                    <div class="dez-topbar-left">
+                        <ul class="social-bx list-inline  pull-left">
+                            <li style="margin-top: 0px;margin-right: 40px"><a href="javascript:void(0);"> فارسی</a></li>
+                            <li style="margin-top: -4px"><a href="profile.html" style="margin-right: 10px"
+                                                            class="fa fa-2x fa-user-circle-o"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top bar END-->
+        <!-- main header -->
+        <div class="sticky-header main-bar-wraper navbar-expand-lg">
+            <div class="main-bar clearfix ">
+                <div class="container-fluid p-l60 p-r60 clearfix">
+                    <!-- website logo -->
+                    <div class="logo-header mostion dark">
+                        <a href="index.html">
+                            <img src="images/logo4.png" width="193" height="89" alt="">
+                        </a>
+                    </div>
+                    <!-- nav toggle button -->
+                    <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
+                            data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <!-- extra nav -->
+                    <div class="extra-nav">
+                        <div class="extra-cell ">
+                            <button id="quik-search-btn" type="button" class="site-button bg-white"
+                                    style="color: #1A74B5;font-size: large;padding-top: 5px"><i
+                                    class="fa fa-search font-weight-300"></i><a class="font-weight-300"> جستجو </a>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Quik search -->
+                    <div class="dez-quik-search ">
+                        <form action="#" style="margin: auto;margin-top: 20px">
+                            <div class="row ">
+                                <div class="col-4 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="نوع سنگ"
+                                           type="text"
+                                           style="background-color: #ffffffc4;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #e3e3e3;"/>
+                                </div>
+                                <div class="col-4 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="نام سنگ"
+                                           type="text" style="background-color: #ffffffc4;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #e3e3e3;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="رنگ"
+                                           type="text" style="background-color: #ffffffc4;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #e3e3e3;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <span id="quik-search-remove"><i class="fa fa-remove"></i></span>
+                                </div>
+
+                            </div>
+                            <div class="row " style="margin-top: -10px">
+                                <div class="col-3 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="حداقل طول"
+                                           type="text" style="background-color: #ffffff5c;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #c5c5c5;"/>
+                                </div>
+                                <div class="col-3 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="حداکثر طول"
+                                           type="text" style="background-color: #ffffff5c;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #c5c5c5;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="حداقل ارتفاع"
+                                           type="text" style="background-color: #ffffff5c;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #c5c5c5;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="حداکثر ارتفاع"
+                                           type="text" style="background-color: #ffffff5c;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #c5c5c5;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <button class="site-button dz-xs-flex m-r5"
+                                            style="background-color: #1A74B5; width: 100%">
+                                        جستجو
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="row " style="margin-top: -10px">
+                                <div class="col-3 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="محل دپو"
+                                           type="text" style="background-color: #ffffffc4;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #e3e3e3;"/>
+                                </div>
+                                <div class="col-4 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="تناژ مورد نیاز"
+                                           type="text" style="background-color: #ffffff5c;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #c5c5c5;"/>
+                                </div>
+                                <div class="col-3 form-group text-left">
+                                    <input name="dzName" required="" class="form-control " placeholder="درجه بندی"
+                                           type="text" style="background-color: #ffffffc4;height: 35px; font-size: 12px;box-shadow: 1px 1px 5px 1px #e3e3e3;"/>
+                                </div>
+                                <div class="col-2 form-group text-left">
+                                    <button class="site-button dz-xs-flex m-r5"
+                                            style="background-color: #df0000;  width: 100%">
+                                        Reset
+                                    </button>
+                                </div>
+                            </div>
+                            <!--                <input name="search" value="" type="text" class="form-control" placeholder="جستجو">-->
+                            <!--                            <span id="quik-search-remove"><i class="fa fa-remove"></i></span>-->
+                        </form>
+                        <div class="dez-quik-search-opacity w-100 h-100 bg-green"
+                             style="position: absolute;top: 0;z-index: -1">dafsdf
+                        </div>
+                    </div>
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse justify-content-right" id="navbarNavDropdown">
+                        <ul class=" nav navbar-nav" style="padding-right: 25px;">
+
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="index.html">خانه</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="full-inventory.html">کل
+                                        موجودی</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="export-block.html">صادراتی</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="special-offer.html">پیشنهاد
+                                        ویژه</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px" class="active">
+                                <div>
+                                    <a href="mines.html">معادن</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="block-details.html">بلاگ</a>
+                                </div>
+                            </li>
+                            <li style="padding-right: 17px">
+                                <div>
+                                    <a href="wish-list.html">انتخاب های
+                                        من</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header END -->
+    </header>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content">
+
+
+        <div class="content-area">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="post card-container col-lg-12 col-md-12 col-sm-12">
+                        <div class="blog-post blog-grid ">
+                            <div class="dez-post-media dez-img-effect zoom-slow"><a href="#"><img
+                                    src="images/background/bg2.jpg" alt=""></a></div>
+                            <div class="dez-post-info">
+                                <div class="dez-post-title ">
+                                    <h3 class="post-title"><a href="#">معدن سلماس</a></h3>
+                                </div>
+                                <div class="dez-post-text">
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                                        جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می
+                                        توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به
+                                        پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته
+                                        اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                    <div class="row m-b30">
+                                        <div class="col-md-6">
+                                            <div class="p-a30 port-info-box bg-gray radius-sm">
+                                                <h5>کشور: <span class="m-l10 font-weight-300 text-black"> ایران</span>
+                                                </h5>
+                                                <h5>استان: <span class="m-l10 font-weight-300 text-black">تهران</span>
+                                                </h5>
+                                                <h5>شهر: <span class="m-l10 font-weight-300 text-black">تهران</span>
+                                                </h5>
+                                                <h5>منطقه: <span class="m-l10 font-weight-300 text-black">سلماس</span>
+                                                </h5>
+                                                <h5>نوع سنگ: <span
+                                                        class="m-l10 font-weight-300 text-black">گرانیت</span></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 info-box align-self-center">
+                                            <h5 class="text-black fw5 m-b10">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+                                                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                                                باشد. </h5>
+                                            <p class="m-b0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                                با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+                                                ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در
+                                                شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می
+                                                طلبد</p>
+                                        </div>
+                                    </div>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                                        جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می
+                                        توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به
+                                        پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته
+                                        اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                        کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                                        جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می
+                                        توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به
+                                        پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته
+                                        اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Map part start -->
+                            <h2>موقعیت معدن</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221879.7790715879!2d52.39293090388858!3d29.665501601054203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fb20d0c8c85f2e3%3A0x6d0c5b8aef6b4cf6!2sShiraz%2C%20Fars%20Province!5e0!3m2!1sen!2s!4v1627990211990!5m2!1sen!2s"
+                                    style="border:0; width:100%; height:400px;" allowfullscreen=""></iframe>
+                            <!-- Map part END -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content END-->
+    <!-- Footer -->
+    <footer class="site-footer">
+        <!-- footer top part -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+                        <div class="widget recent-posts-entry">
+                            <h4 class="m-b15 text-uppercase">پست های اخیر</h4>
+                            <div class="dez-separator-outer m-b10">
+                                <div class="dez-separator bg-white style-skew"></div>
+                            </div>
+                            <div class="widget-post-bx">
+                                <div class="widget-post clearfix">
+                                    <div class="dez-post-media"><img src="images/stone6.jpg" alt=""
+                                                                     width="200" height="143"></div>
+                                    <div class="dez-post-info">
+                                        <div class="dez-post-header">
+                                            <h6 class="post-title text-uppercase"><a href="blog-single.html">بلاک کیفیت
+                                                A</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-post clearfix">
+                                    <div class="dez-post-media"><img src="images/stone4.jpg" alt=""
+                                                                     width="200" height="160"></div>
+                                    <div class="dez-post-info">
+                                        <div class="dez-post-header">
+                                            <h6 class="post-title text-uppercase"><a href="blog-single.html">بلاک کیفیت
+                                                B</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+                        <div class="widget widget_services">
+                            <h4 class="m-b15 text-uppercase">معادن</h4>
+                            <div class="dez-separator-outer m-b10">
+                                <div class="dez-separator bg-white style-skew"></div>
+                            </div>
+                            <ul>
+                                <li><a href="services-2.html">سلماس</a></li>
+                                <li><a href="services-2.html">سیستان</a></li>
+                                <li><a href="services-2.html">خراسان</a></li>
+                                <li><a href="services-2.html">تهران</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+                        <div class="widget widget_services">
+                            <h4 class="m-b15 text-uppercase">بلاک ها</h4>
+                            <div class="dez-separator-outer m-b10">
+                                <div class="dez-separator bg-white style-skew"></div>
+                            </div>
+                            <ul>
+                                <li><a href="services-2.html">صادراتی</a></li>
+                                <li><a href="services-2.html">پیشنهاد ویژه</a></li>
+                                <li><a href="services-2.html">لاین شده</a></li>
+                                <li><a href="services-2.html">داخلی</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-col-4">
+                        <div class="widget widget_about m-r50">
+                            <div class="logo-footer"><img src="images/logo5.png" alt=""></div>
+                            <div class="text-center">
+                                <ul class="dez-social-icon dez-border">
+                                    <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
+                                    <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
+                                    <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
+                                    <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-left">
+                        <span>© کپی رایت 2021</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <a href="about-1.html">ROTRO GROUP</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END-->
+    <!-- scroll top button -->
+    <button class="scroltop fa fa-arrow-up style4"></button>
+</div>
+<!-- JavaScript  files ========================================= -->
+<script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+<script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script src="plugins/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+<script src="plugins/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+<script src="plugins/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script src="plugins/imagesloaded/imagesloaded.js"></script><!-- IMAGESLOADED -->
+<script src="plugins/masonry/masonry-3.1.4.js"></script><!-- MASONRY -->
+<script src="plugins/masonry/masonry.filter.js"></script><!-- MASONRY -->
+<script src="plugins/owl-carousel/owl.carousel.js"></script><!-- OWL SLIDER -->
+<script src="js/custom.min.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="js/dz.carousel.min.js"></script><!-- SORTCODE FUCTIONS  -->
+<script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
+
+<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="js/rev.slider.js"></script>
+<script>
+    jQuery(document).ready(function () {
+        'use strict';
+        dz_rev_slider_6();
+    });	/*ready*/
+</script>
+</body>
+</html>
